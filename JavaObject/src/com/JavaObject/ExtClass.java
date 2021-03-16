@@ -32,4 +32,14 @@ public class ExtClass
         return result ;
     }
 
+    public int hashCode()
+    {
+        return (s + b + i + d).hashCode();
+    }
+
+    public String toString()
+    {
+        return String.format(b + i + d + s);
+    }
+
 }
