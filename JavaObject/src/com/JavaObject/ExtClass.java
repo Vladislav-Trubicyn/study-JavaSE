@@ -1,4 +1,4 @@
-package com.JavaObject;
+package javaobject;
 
 public class ExtClass
 {
